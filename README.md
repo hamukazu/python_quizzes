@@ -1,2 +1,1 @@
-# python_quiz
-Python千本ノック
+# python_quizzes（Python千本ノック）
