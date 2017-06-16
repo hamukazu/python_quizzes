@@ -1,5 +1,7 @@
-
-def f(a, b):
+#######################################
+# 文字列の操作
+#######################################
+def f1(a, b):
     # 文字列aとbを連結してxに代入せよ
 
     # （次の行を書き換える）
@@ -7,7 +9,7 @@ def f(a, b):
     return x
 
 
-def g(s):
+def f2(s):
     # 文字列sの、左から数えて3文字目を取り出してxに代入せよ
     # 例： "abcdefg" => "c"
 
@@ -16,7 +18,7 @@ def g(s):
     return x
 
 
-def h(s):
+def f3(s):
     # 文字列sの、左から数えて3文字目から6文字目までを取り出してxに代入せよ
     # 例： "abcdefg" => "cdef"
 
@@ -24,6 +26,16 @@ def h(s):
     x = ""
     return x
 
-assert f("xy", "zw") == "xyzw"
-assert g("123456") == "3"
-assert g("123456789") == "3456"
+def f4(s):
+    # 文字列sを3回繰り返した文字列をxに代入せよ
+    # 例： "abc" => "abcabcabc"
+
+    # （次の行を書き換える）
+    x = ""
+    return x
+
+assert f1("xy", "zw") == "xyzw"
+assert f2("123456") == "3"
+assert f3("123456789") == "3456"
+assert f4("xy") == "xyxyxy"
+print("OK")
