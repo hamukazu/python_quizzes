@@ -7,9 +7,8 @@ from collections import Counter
 # 引数に単語のリストが与えられたときに、各単語の出現数を表すCounterオブジェクトを返せ
 # 例：["a","b","a","b","c"] => Counter({"a":3, "b":2, "c":1})
 
+
 # 以下を書きかえる
-
-
 def f1(l):
     return Counter()
 # ここまでを書きかえる
@@ -23,9 +22,8 @@ import re
 # 引数として与えらた文字列の行頭からスペースまでを削除したものを返せ
 # 例："abcd efg" => "efg"
 
+
 # 以下を書きかえる
-
-
 def g1(s):
     return ""
 # ここまでを書きかえる
@@ -35,9 +33,8 @@ def g1(s):
 #  "abcDefg" => "abcD"
 #  "abc1234efg" => "abc1234"
 
+
 # 以下を書きかえる
-
-
 def g2(s):
     return ""
 # ここまでを書きかえる
