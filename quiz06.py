@@ -1,3 +1,4 @@
+#######################################
 # Counterクラスの使い方
 #######################################
 
@@ -10,7 +11,7 @@ from collections import Counter
 
 
 def f1(l):
-  return Counter()
+    return Counter()
 # ここまでを書きかえる
 
 
@@ -23,8 +24,10 @@ import re
 # 例："abcd efg" => "efg"
 
 # 以下を書きかえる
+
+
 def g1(s):
-  return ""
+    return ""
 # ここまでを書きかえる
 
 # 引数として与えらた文字列の行末から続く英小文字の並びを削除したものを返せ
@@ -36,7 +39,7 @@ def g1(s):
 
 
 def g2(s):
-  return ""
+    return ""
 # ここまでを書きかえる
 
 
